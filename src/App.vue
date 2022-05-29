@@ -6,13 +6,23 @@
   <router-view />
 </template>
 
+<script>
+import { Component, mixins } from 'vue-decorator-plus-jousenzhou';
+
+@Component({})
+export default class App extends mixins() {}
+</script>
+
 <style lang="scss">
 #app {
-  color: #2c3e50;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  color: #2c3e50;
 }
 
 nav {

@@ -6,7 +6,7 @@ module.exports = {
     commonjs: true,
   },
   extends: [
-    'plugin:vue/essential',
+    'plugin:vue/vue3-essential',
     'airbnb-base',
     'plugin:prettier/recommended',
   ],
@@ -32,5 +32,6 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'no-useless-escape': 'off',
     'vue/no-multiple-template-root': 'off',
+    'linebreak-style': 'off',
   },
 };
